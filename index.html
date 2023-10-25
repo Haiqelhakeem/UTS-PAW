@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTS Pengembangan Web</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light-subtle fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/public/logo/logo.png" alt="" width="30" height="24" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://wa.me/6282121374572"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://haiqelhakeem.github.io/"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://docs.google.com/document/d/1lsVVOCmH1nWUcUcYSR44eaqamNH8bkBKWfbSegXqs9Q/edit?usp=sharing">Docs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- header -->
+    <header>
+      <!-- Home -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-left m-xl-5" style="padding-top: 75px">
+            <h1 class="fw-bolder mt-lg-5 mb-md-4" style="font-size: 50px">
+              Bring technology in your hands
+            </h1>
+            <p class="fs-5 mt-2" style="font-size: 22px; margin-top: 50px">
+              This technology will bring new things and experiences to your
+              business and company
+            </p>
+            <a href="https://www.tokopedia.com/">
+              <button
+              class="btn button-main mt-3 me-3"
+              style="width: 150px; height: 50px"
+            >
+              Buy
+            </button>
+            </a>
+            <a href="https://www.tokopedia.com/">
+              <button class="btn button-products mt-3" type="button">
+                <u>See all products</u>
+              </button>
+            </a>
+          </div>
+          <div class="col pe-0 mt-xl-5" id="img-home">
+            <img src="/public/images/home.jpg" width="100%" height="500px" />
+          </div>
+        </div>
+      </div>
+      <!-- End home -->
+
+      <!-- Easy to implement and optimize system -->
+      <div
+        class="container-fluid text-center"
+        style="margin-top: 100px; padding-bottom: 100px"
+      >
+        <div class="row">
+          <div class="col p-md-3">
+            <div class="centered-icon">
+              <iconify-icon icon="material-symbols:keyboard"></iconify-icon>
+            </div>
+            <h2>Easy to implement</h2>
+            <p class="paragraph ms-3 fs-5">
+              Easy to implement in your company with powerful platform
+            </p>
+          </div>
+          <div class="col p-md-3">
+            <div class="centered-icon">
+              <iconify-icon icon="akar-icons:paper-airplane"></iconify-icon>
+            </div>
+            <h2>Optimize systems</h2>
+            <p class="paragraph me-3 fs-5">
+              More than 1000 company using this products
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Easy to implement and optimize system -->
+
+      <!-- Demo -->
+      <div class="container-fluid">
+        <div class="row pb-lg-5">
+          <div class="col ps-lg-0" id="img-keyboard">
+            <img
+              src="/public/images/keyboard.png"
+              alt=""
+              srcset=""
+              width="400px"
+            />
+          </div>
+          <div class="col me-md-5">
+            <h2
+              class="fw-bolder mt-3"
+              style="padding-top: 50px; font-size: 50px"
+            >
+              Now, Set up and grow your company
+            </h2>
+            <p class="mt-5 mb-3" style="font-size: 22px">
+              We offer many products that optimize your company, setup now and
+              grow up your company
+            </p>
+            <a href="https://if.uinsgd.ac.id/">
+              <button
+              class="button-main btn mt-3"
+              type="button"
+              style="width: 150px; height: 50px"
+            >
+              Demo
+            </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Demo -->
+
+      <!-- Forms -->
+      <div class="form-group">
+        <div class="container-fluid">
+          <div class="row mb-5">
+            <div class="col ms-lg-5">
+              <label for="exampleFormControlInput1">Name</label>
+              <input
+                class="form-control w-75 h-100"
+                type="text"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="col">
+              <label for="exampleFormControlInput1">Email</label>
+              <input
+                class="form-control w-75 h-100"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col ms-lg-5">
+              <label for="exampleFormControlSelect1">Role</label>
+              <select
+                class="form-control h-100"
+                id="exampleFormControlSelect1"
+                style="width: 420px"
+              >
+                <option>Designer</option>
+                <option>Developer</option>
+                <option>Manager</option>
+                <option>Engineer</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ms-lg-5 me-lg-5">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ms-lg-5 mt-4">
+              <p>I choose to send information about:</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="defaultCheck1"
+                />
+                <label class="form-check-label" for="defaultCheck1"
+                  >Marketing</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="defaultCheck2"
+                />
+                <label class="form-check-label" for="defaultCheck2"
+                  >News & Updates</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="defaultCheck3"
+                />
+                <label class="form-check-label" for="defaultCheck3"
+                  >Product Updates</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="defaultCheck4"
+                />
+                <label class="form-check-label" for="defaultCheck4">None</label>
+              </div>
+            </div>
+          </div>
+          <button
+            class="btn button-main ms-lg-5"
+            type="submit"
+            style="width: 150px; height: 50px; margin-bottom: 50px;"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <!-- End Forms -->
+    </header>
+    <!-- End header -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="footer-icon">
+              <a href="https://www.youtube.com/channel/UCWuf25j6MPXtcRDeqYjRtBA">
+                <iconify-icon icon="fa-brands:youtube-square" style="color: white;"></iconify-icon>
+              </a>
+              <a href="#">
+                <iconify-icon icon="fa-brands:facebook-square" style="color: white;"></iconify-icon>
+              </a>
+              <a href="https://wa.me/6282121374572">
+                <iconify-icon icon="fa-brands:whatsapp-square" style="color: white;"></iconify-icon>
+              </a>
+              <a href="https://instagram.com/hql.hakeem_?igshid=MzMyNGUyNmU2YQ==">
+                <iconify-icon icon="fa-brands:instagram-square" style="color: white;"></iconify-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col ps-5 pb-5">
+            <a href="https://wa.me/6282121374572">Contact</a><br>
+            <a href="https://haiqelhakeem.github.io/">About Me</a><br>
+            <a href="#">Terms and Conditions</a>
+          </div>
+          <div class="col ps-5 pb-5">
+            <a href="#">Carrers</a><br>
+            <a href="#">Change country</a><br>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</html>
